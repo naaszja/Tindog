@@ -29,11 +29,13 @@
 #cta {
   text-align: center;
   background-color: #ff4c68;
+  padding: 7% 15%;
 }
 
 #footer {
   text-align: center;
-  background-color: #ff4c68;
+  background-color: #fff;
+  padding: 7% 10%;
 }
 
 body {
@@ -146,10 +148,44 @@ p {
 
 .ctaH3 {
   padding: 20px;
+  width: 80%;
   color: #fff;
   margin: 0 auto;
+  font-family: 'Montserrat';
+  font-size: 3.5rem;
 }
 
 .downloadButtons2 {
   margin: 0 0.5% 15px 0.5%;
+}
+
+.footIcon {
+  padding: 1% 1.5%;
+}
+
+.i1:hover {
+  color: deepskyblue;
+}
+
+.i2:hover {
+  color: blue;
+}
+
+.i3:hover {
+  color: gold;
+}
+
+.i4:hover {
+  color: red;
+}
+
+@media (max-width: 1028px) {
+  .phoneImg {
+    position: static;
+    transform: rotate(0);
+  }
+
+  #title {
+    text-align: center;
+  }
 }
