@@ -41,25 +41,28 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
-h1 {
-  font-family: 'Montserrat';
-  font-size: 3.5rem;
-  line-height: 1.5;
-}
-
-h2 {
-  font-family: 'Montserrat';
-  font-size: 3rem;
-  line-height: 1.5;
-}
-
-h3 {
+h1, h2, h3, h4, h5, h6 {
   font-family: 'Montserrat';
 }
 
 p {
   color: #8f8f8f;
   font-family: 'Ubuntu';
+}
+
+.testText {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.priceText {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.bigHeading {
+  font-size: 3.5rem;
+  line-height: 1.5;
 }
 
 .navbar {
@@ -131,6 +134,8 @@ p {
 }
 
 .h2Price {
+  font-size: 3rem;
+  line-height: 1.5;
   margin: 1.5em auto 0 auto;
 }
 
